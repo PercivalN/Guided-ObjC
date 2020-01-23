@@ -47,8 +47,13 @@
 //	LSIVersion *version = [self.controller.versions objectAtIndex:indexPath.row]; // ESC, type method name to get auto-complete
 	LSIVersion *version = [self.controller.versions objectAtIndex:indexPath.row]; // ]
 
+	// Dot syntax - new for properties
 	cell.textLabel.text = version.name;
-	cell.detailTextLabel.text = version.releaseDate; 
+	cell.detailTextLabel.text = version.releaseDate;
+
+	// Method call syntax (Original ObjC syntax)
+	[[cell textLabel] setText:[version name]];
+	[[cell detailTextLabel] setText:[version releaseDate]];
     
     return cell;
 }

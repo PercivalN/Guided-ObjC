@@ -14,6 +14,24 @@
 @interface LSIVersion : NSObject
 
 @property NSString *name;
+
+// ObjC will generate 3 things for a property
+// 1. Backing variable (instance variable: _name)
+
+//	NSString *_name;
+
+// 2. Getter method
+
+//- (NSString *)name {
+//	return _name;
+//}
+
+// 3. Setter method
+
+//- (void)setName:(NSString *)name {
+//	_name = name;
+//}
+
 @property NSString *releaseDate;
 
 // Creating an initializer
