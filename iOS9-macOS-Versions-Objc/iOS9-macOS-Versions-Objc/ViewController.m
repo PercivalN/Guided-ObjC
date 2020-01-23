@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LSIVersion.h"
 
 @interface ViewController ()
 
@@ -42,7 +43,13 @@
 	NSLog(@"pi: %f distance: %f count: %i", pi, distance, count);
 	NSLog(@"pi: %0.2f distance: %0.1f count: %i", pi, distance, count); // The formatting occurs inline with the %f
 
+	// 1. Get the space (Buying the land)
+	// 2. Initialize the object (Build the house)
+	// This creates the object
+	LSIVersion *version = [[LSIVersion alloc] initWithName:@"Catalina"
+											   releaseDate:@"October 7th, 2019"];
 
+	NSLog(@"Version: %@ releaseDate: %@", version.name, version.releaseDate);
 }
 
 
