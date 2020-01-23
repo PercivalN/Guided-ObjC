@@ -16,6 +16,7 @@
 		BD4825CC2370928100FC12E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4825CB2370928100FC12E9 /* main.m */; };
 		DD9FD00023D98F8700D9665A /* LSIVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FCFFF23D98F8700D9665A /* LSIVersion.m */; };
 		DD9FD00323D9A29900D9665A /* LSIVersionController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FD00223D9A29900D9665A /* LSIVersionController.m */; };
+		DD9FD00623D9A9B700D9665A /* LSIVersionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FD00523D9A9B700D9665A /* LSIVersionsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		DD9FCFFF23D98F8700D9665A /* LSIVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersion.m; sourceTree = "<group>"; };
 		DD9FD00123D9A29900D9665A /* LSIVersionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionController.h; sourceTree = "<group>"; };
 		DD9FD00223D9A29900D9665A /* LSIVersionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionController.m; sourceTree = "<group>"; };
+		DD9FD00423D9A9B700D9665A /* LSIVersionsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionsTableViewController.h; sourceTree = "<group>"; };
+		DD9FD00523D9A9B700D9665A /* LSIVersionsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				DD9FCFFF23D98F8700D9665A /* LSIVersion.m */,
 				DD9FD00123D9A29900D9665A /* LSIVersionController.h */,
 				DD9FD00223D9A29900D9665A /* LSIVersionController.m */,
+				DD9FD00423D9A9B700D9665A /* LSIVersionsTableViewController.h */,
+				DD9FD00523D9A9B700D9665A /* LSIVersionsTableViewController.m */,
 				BD4825C22370927F00FC12E9 /* Main.storyboard */,
 				BD4825C52370928100FC12E9 /* Assets.xcassets */,
 				BD4825C72370928100FC12E9 /* LaunchScreen.storyboard */,
@@ -156,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9FD00623D9A9B700D9665A /* LSIVersionsTableViewController.m in Sources */,
 				DD9FD00023D98F8700D9665A /* LSIVersion.m in Sources */,
 				BD4825C12370927F00FC12E9 /* ViewController.m in Sources */,
 				BD4825BB2370927F00FC12E9 /* AppDelegate.m in Sources */,
